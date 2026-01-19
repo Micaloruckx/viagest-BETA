@@ -8,7 +8,7 @@ const HomeScreen: React.FC = () => {
   return (
     <div className="relative flex min-h-screen w-full flex-col pb-24">
       {/* Header */}
-      <header className="sticky top-0 z-20 flex items-center justify-between bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-4 py-3 pointer-events-none backdrop-blur-md">
+      <header className="sticky top-0 z-20 flex items-center justify-between bg-background-light/90 dark:bg-background-dark/90 backdrop-blur-md px-4 py-3 backdrop-blur-md">
         <div className="flex items-center gap-3">
           <button className="flex size-10 items-center justify-center rounded-full hover:bg-black/5 dark:hover:bg-white/10 transition-colors">
             <span className="material-symbols-outlined text-2xl">menu</span>
